@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import time
 
-WEBHOOK_URL = https://discord.com/api/webhooks/1386733495120040006/Z5n0V4nS_Fu-4iyJ6h0x44peLkTX14Gqv-cVzWDrsw_CicTf6tcBsMDHa8wjmRvdh-gl
+WEBHOOK_URL = "https://discord.com/api/webhooks/1386733495120040006/Z5n0V4nS_Fu-4iyJ6h0x44peLkTX14Gqv-cVzWDrsw_CicTf6tcBsMDHa8wjmRvdh-gl"
+
 seen_links = set()
 
 def send_discord_embed(notebook_name, url):
